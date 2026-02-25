@@ -1,0 +1,33 @@
+# Build
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeLists.txt.user
+
+# Ninja
+.ninja_*
+
+# Compiled
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.envrc
+
+# Nix
+result*
